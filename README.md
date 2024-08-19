@@ -9,11 +9,11 @@ fun main() {
     var total_gas: Double
     var total_co2: Double
 
-    while (true) { // loop while inicial para garantir que o usuario possa repetir ou sair do programa ao final da execução
+    while (true) { // Loop inicial para garantir que o usuário possa repetir ou sair do programa ao final da execução
 
         do { // Do-while para repetir a pergunta em caso de entradas inválidas
             println("Informe o consumo total de eletricidade em kWh/m³: ")
-            consumo_eletricidade = readln().toDoubleOrNull() ?: -1.0 /* Elvis '?:' para setar um valor null em números negativos e melhorar o tratamento de dados?*
+            consumo_eletricidade = readln().toDoubleOrNull() ?: -1.0 // Elvis '?:' para setar um valor null em números negativos e melhorar o tratamento de dados
             
             if (consumo_eletricidade < 0) { // Rejeita valores negativos
                 println("Valor inválido, digite apenas números positivos")
@@ -41,9 +41,9 @@ fun main() {
         println("(1) - Sim (2) - Não")
 
         val resposta = readln().toInt()
-        if (resposta != 1) { // Encerra o loop inicial e o programa se o usuario entrar com um valor que não seja 1
+        if (resposta != 1) { // Encerra o loop inicial e o programa se o usuário entrar com um valor que não seja 1
             break
         }
     }
-}
+
 
