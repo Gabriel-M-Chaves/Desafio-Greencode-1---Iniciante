@@ -1,1 +1,2 @@
 # Desafio-Greencode-1---Iniciante
+Desenvolver um programa que solicite ao usuário o tipo de energia (eletricidade ou gás natural) e o respectivo consumo. Utilize fatores de emissão específicos para cada tipo de energia: Eletricidade (0.475 kg CO2/kWh) e gás natural (2.0 kg CO2/m³). O programa deve calcular a pegada de carbono para cada tipo de energia inserido e, ao final, apresentar o valor total da pegada de carbono.
